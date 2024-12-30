@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: popularity
+  jackson:
+    date-format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+
+github:
+  api:
+    url: https://api.github.com
+  access:
+    token: ${PERSONAL_ACCESS_TOKEN} # Being set as environment variable. To send with API calls to GitHub for Authorization
